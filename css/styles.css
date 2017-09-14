@@ -1,0 +1,117 @@
+html {
+    font: 400 1em/1.4 'Open Sans',sans-serif;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    padding: 1.5em;
+    min-height: 80vh;
+    width: 85vw;
+    margin: auto;
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+h1 {
+    margin: 0;
+    font-weight: 300;
+    font-size: 24pt;
+}
+
+.vert-aligner {
+    display: flex;
+    align-items: center;
+}
+
+.top-bar {
+    flex: 1;
+    margin: 1em 0 0 0;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.nav-div {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-img {
+    flex: 1;
+    padding: 0 1em 0 1em;
+    margin: 0 1em 0 1em;
+}
+
+.nav-text {
+    flex: 4;
+    padding: 0 1em 0 1em;
+    margin: 0 1em 0 1em;
+    text-align: justify;
+}
+
+.nav-links {
+    text-align: center;
+}
+
+.content {
+    padding: 1em;
+    margin: 1em 0;
+    border-radius: 5px;
+}
+
+.single-column {
+    padding: 1em;
+}
+
+.two-column {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-column {
+    flex: 1;
+    padding: 1em;
+    order: 0;
+}
+
+.right-column {
+    flex: 1;
+    padding: 1em;
+}
+
+.content p {
+    text-align: justify;
+}
+
+.paper {
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 2px 2px 2px #999999;
+}
+
+.paperImg {
+    margin: 1em;
+}
+
+.paperImg img {
+    width: 125px;
+    height: 125px;
+}
+
+.paperInfo {
+    flex: 1;
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.paperInfo p {
+    margin: 0;
+}

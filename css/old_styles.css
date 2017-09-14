@@ -1,0 +1,67 @@
+body {
+    # background: #f9f9f9;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lora', serif;
+    color: rgb(0,47,101);
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+#about-contact{
+    # align-self: flex-start;
+}
+
+
+.well {
+    background: rgb(0, 47, 101);
+    color: white;
+}
+
+.page-header {
+    # text-align: center;
+    border-bottom: 3px solid rgb(0,47,101); 
+}
+
+.panel, .list-group-item {
+    box-shadow: 0px 6px 5px -7px #333;
+    # border: 1px solid rgb(0, 47, 101);
+}
+
+.navbar-default {
+    background: rgb(0,47,101);
+}
+
+.navbar-default .navbar-brand {
+    font-family: 'Lora', serif;
+    color:white;
+}
+
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:hover {
+    color: white;
+}
+
+.navbar-default .navbar-nav li a {
+    font-family: 'Lora', serif;
+    color: white;
+}
+
+.navbar-default .navbar-nav li.active a {
+    color: rgb(0, 47, 101);
+    background: white;
+}
+
+.navbar-default .navbar-nav li a:focus,
+.navbar-default .navbar-nav li a:hover {
+    color: rgb(64,185,236);
+}
+
+.media-object {
+    width: 100px;
+    height: 100px;
+}
